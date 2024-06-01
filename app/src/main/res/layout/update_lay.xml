@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:orientation="vertical"
+    android:background="#4CAF50"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD CONTACT"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:textColor="#fff"
+        android:id="@+id/head"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:hint="Enter the Name"
+        android:id="@+id/name"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:layout_margin="13dp"
+        android:textStyle="bold"
+        android:hint="Enter the number"
+        android:id="@+id/number"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#fff"
+        android:layout_marginLeft="90dp"
+        android:hint="ADD"
+        android:id="@+id/btn"
+        android:textStyle="bold"/>
+
+</LinearLayout>
